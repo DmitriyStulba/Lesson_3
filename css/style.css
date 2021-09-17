@@ -1,0 +1,104 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* --------------- */
+
+
+
+
+/* вертел по разному. что-то получилось что-то нет */
+/* li{
+    color: green;
+} */
+a {
+    color:peru;
+}
+p {
+    color: slateblue;
+}
+span {
+color: pink;
+}
+h1,
+h3,
+h4 {
+    color: rgb(128, 109, 0);
+}
+mark {
+    color:green;
+} 
+.start {
+    color: aqua;
+}
+.start_text {
+    color: blue;
+}
+.hist span {
+    color: seagreen;
+}
+.hist .hist_one {
+    color: cyan;
+} 
+.hist_one {
+    color: darkgoldenrod;
+}
+.hist_two {
+    color: darkred;
+}
+.hist_two + * {
+    color: springgreen;
+}
+.types {
+    color: tan;
+}
+.types_one {
+    color:crimson;
+}
+#world {
+    color: violet;
+}
+.facts .facts_one,
+.facts .facts_two {
+    color: red;
+}
+.facts_two {
+    color: yellowgreen;
+}
+.facts_one + * {
+    color: purple
+}
+span.sienna_span {
+    color:sienna
+}
+.facts_two,
+.facts_one,
+footer {
+    color:thistle
+}
