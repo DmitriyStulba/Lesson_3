@@ -32,13 +32,17 @@ img {
 
 
 
+/* Версия 2 */
+/*__*/
 
-/* вертел по разному. что-то получилось что-то нет */
+/* Вертел по разному. Вроде разобрался, замечания Хмурого Кота учел. 
+В дальнейшей работе буду закреплять*/
+
 /* li{
     color: green;
 } */
 a {
-    color:peru;
+    color: peru;
 }
 p {
     color: slateblue;
@@ -54,11 +58,17 @@ h4 {
 mark {
     color:green;
 } 
+span .hist_one {
+    color: teal;
+}
 .start {
     color: aqua;
 }
 .start_text {
     color: blue;
+}
+.start_text > span {
+    color:silver
 }
 .hist span {
     color: seagreen;
@@ -101,4 +111,19 @@ span.sienna_span {
 .facts_one,
 footer {
     color:thistle
+}
+.facts_one ~ * {
+    color: red;
+}
+.types_one ~ li {
+    color: yellow
+}
+.vienna p {
+    color: yellowgreen;
+}
+.vienna span {
+    color: violet;
+}
+#in_russia {
+    color: wheat;
 }
